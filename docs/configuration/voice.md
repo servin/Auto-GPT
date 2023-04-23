@@ -27,3 +27,13 @@ In the `.env` file set:
 - Arnold : VR6AewLTigWG4xSOukaG
 - Adam : pNInz6obpgDQGcFmaJgB
 - Sam : yoZ06aMxZJJ28mfd3POQ
+
+
+### MacOs Only  - If your are getting ModuleNotFoundError 
+
+If you're getting a ModuleNotFoundError. The AppKit module is part of the PyObjC package, which provides a bridge between Python and the Objective-C libraries on macOS.
+
+You can install the PyObjC package using the following command:
+``` shell
+pip install pyobjc
+```
